@@ -61,7 +61,7 @@ const Booking = () => {
     };
 
     // Make a POST request to the backend API
-    fetch("http://localhost:5000/api/bookticket", {
+    fetch("https://apctravels.onrender.com/api/bookticket", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
