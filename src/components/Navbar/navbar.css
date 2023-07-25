@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; 
+}
+body{
+    background-image: url('../images/travel.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: rgb(143, 143, 216);
+    
+    
+}
+.navbar a {
+    text-decoration: none;
+  }
+.navbar ul li img{
+    width: 60%;
+}
+li:hover{
+    background-color: rgb(179, 189, 245);
+    opacity: 0.5;
+    color: red;
+    border-radius: 4px;
+}
+
+.navbar{
+    
+    color: rgb(65, 16, 227);
+    height:300px;
+  
+}
+
+.navbar ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.navbar ul li{
+    list-style: none;
+    cursor: pointer;
+    text-decoration:double;
+  
+    
+}
+.background-container {
+    flex: 1;
+    
+    background-size: cover;
+    height: 100vh;
+}
+
+.content-container{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the color and opacity as needed */
+}
+.content-container {
+    flex: 1;
+    height: 115vh;
+     /* You can set the background color for the right half here */
+}
+
+@media screen and (max-width: 850px) {
+   .navbar{
+    width: 100%;
+   }
+   .content-container{
+    position: absolute;
+    top: 30;
+    left: 0%;
+    margin: 10%;
+    margin-top: 25%;
+    width: 80%;
+    height: 122% !important;
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the color and opacity as needed */
+}
+body{
+    background-image: url('../images/travel.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 145vh;
+    
+    
+}
+.content-container{
+    position: absolute;
+    top: 30;
+    left: 0%;
+    margin: 10%;
+    margin-top: 25%;
+    width: 80%;
+    height: 105%;
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the color and opacity as needed */
+}
+  }
+
+  @media screen and (min-width: 851px) and (max-width: 1320px){
+    body{
+        background-image: url('../images/travel.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 135vh !important;
+        
+        
+    }
+    .content-container{
+       
+        width: 80%;
+        height: 135vh;
+        backdrop-filter: blur(2px);
+        background-color: rgba(255, 255, 255, 0.5); /* Adjust the color and opacity as needed */
+    }
+  }
