@@ -7,7 +7,7 @@ const Admin = () => {
 
   useEffect(() => {
     // Fetch data from the backend API
-    fetch("http://localhost:5000/api/showapplications")
+    fetch("https://apctravels.onrender.com/api/showapplications")
       .then((response) => {
         if (response.ok) {
           return response.json();
