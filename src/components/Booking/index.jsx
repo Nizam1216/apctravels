@@ -226,7 +226,7 @@ const Booking = () => {
                 className="form-control"
                 id="exampleInputPassword7"
                 placeholder="example : 29/09/2023"
-                required
+              
                 name="returnticket"
                 value={formData.returnticket}
                 onChange={handleChange}
