@@ -61,7 +61,7 @@ const Admin = () => {
             <p>Date to Book Ticket : {application.DatetoBookTicket}</p>
             <p>Return Ticket : {application.returnticket}</p>
             <p>Book To and From: {application.bookToAndFrom ? "Yes" : "No"}</p>
-            <p>Date: {new Date(application.date).toLocaleDateString()}</p>
+            <p>Applied Date : {new Date(application.date).toLocaleDateString()}</p>
           </div>
         ))}
       </div>
